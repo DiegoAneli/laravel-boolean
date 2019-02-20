@@ -10701,3 +10701,16 @@ header .header-right ul li.active a {
   border-bottom: 2px solid lightgreen;
 }
 
+.home {
+  margin-top: 20px;
+  margin-right: 10%;
+}
+
+.pre_footer {
+  margin-top: 50px;
+}
+
+.pre_footer img {
+  max-width: 100%;
+}
+
