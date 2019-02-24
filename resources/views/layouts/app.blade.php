@@ -13,11 +13,11 @@
       </div>
       <div class="header-right">
         <ul>
-          <li class="active"><a href="{{ route('home') }}">HOME</a></li>
-          <li><a href="{{ route('corso') }}">CORSO</a></li>
-          <li><a href="{{ route('metodo') }}">METODO</a></li>
-          <li><a href="{{ route('dopo_il_corso') }}">DOPO IL CORSO</a></li>
-          <li><a href="{{ route('faq') }}">FAQ</a></li>
+          <li class="nav_item{{ (Request::route()->getName() == 'home') ? ' active' : null }}"><a href="{{ route('home') }}">HOME</a></li>
+          <li><a href="#">CORSO</a></li>
+          <li><a href="#">METODO</a></li>
+          <li><a href="#">DOPO IL CORSO</a></li>
+          <li><a href="#">FAQ</a></li>
           <div class="btn btn-primary">Iscriviti</div>
         </ul>
 
