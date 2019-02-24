@@ -10714,3 +10714,13 @@ header .header-right ul li.active a {
   max-width: 100%;
 }
 
+footer {
+  height: 50px;
+  width: 100%;
+  background: #1B3C59;
+  line-height: 50px;
+  color: white;
+  margin-top: 5px;
+  text-align: center;
+}
+
