@@ -8,19 +8,10 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
-
-
-class StaticPageController extends Controller
+class MetodController extends Controller
 {
-  public function privacyPolicy()
+  public function index()
   {
-    return view('static_pages.privacy');
+    return view('static_pages.metod');
   }
-
-  public function workWithUs()
-  {
-    return view('static_pages.work_with_us');
-
-  }
-
 }

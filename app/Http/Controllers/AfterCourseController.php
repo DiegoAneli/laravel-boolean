@@ -10,17 +10,11 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
 
 
-class StaticPageController extends Controller
+class AfterCourseController extends Controller
 {
-  public function privacyPolicy()
+  public function index()
   {
-    return view('static_pages.privacy');
-  }
-
-  public function workWithUs()
-  {
-    return view('static_pages.work_with_us');
+    return view('static_pages.after_course');
 
   }
-
 }

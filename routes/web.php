@@ -20,6 +20,7 @@ Route::get('/lavora-con-noi', 'StaticPageController@workWithUs')->name('static.w
 
 //navbar page
 
-Route::get('/il-corso', 'CourseController@course')->name('static.course');
-Route::get('/dopo-il-corso', 'AfterCourseController@afterCourse')->name('static.after_course');
-Route::get('/faq', 'FaqController@faq')->name('static.faq');
+Route::get('/il-corso', 'CourseController@index')->name('course');
+Route::get('/dopo-il-corso', 'AfterCourseController@index')->name('after_course');
+Route::get('/faq', 'FaqController@index')->name('faq');
+Route::get('/metodo', 'MetodController@index')->name('metod');
