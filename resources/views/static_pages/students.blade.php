@@ -5,7 +5,7 @@
 <div class="container">
   <div class="row">
 
-    @foreach ($students as $student)
+    @foreach (config('students') as $student)
     <div class="student">
       <div class="student-left">
         <img src="{{ $student['img'] }}" alt="{{ $student['name'] }}">
