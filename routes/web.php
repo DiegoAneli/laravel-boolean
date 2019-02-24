@@ -22,5 +22,5 @@ Route::get('/lavora-con-noi', 'StaticPageController@workWithUs')->name('static.w
 
 Route::get('/il-corso', 'CourseController@index')->name('course');
 Route::get('/dopo-il-corso', 'AfterCourseController@index')->name('after_course');
-Route::get('/faq', 'FaqController@index')->name('faq');
+Route::get('/studenti', 'StudentsController@index')->name('students');
 Route::get('/metodo', 'MetodController@index')->name('metod');

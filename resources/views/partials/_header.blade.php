@@ -21,7 +21,7 @@
       </li>
 
       <li class="nav_item{{ (Request::route()->getName() == 'faq') ? ' active' : null }}">
-        <a href="{{ route('faq') }}">FAQ</a>
+        <a href="{{ route('students') }}">STUDENTI</a>
       </li>
 
 
